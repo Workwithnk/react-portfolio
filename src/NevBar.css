@@ -16,11 +16,11 @@
     align-items: center;
     justify-content: center;
     border-bottom: 3px solid #2ecc71;
-    position: sticky;
+    position: fixed;
     top: 0px;
     left: 0px;
     padding: 5px 0px;
-    z-index: 999;
+    z-index: 10;
   }
   .NavBar img {
     display: block;
