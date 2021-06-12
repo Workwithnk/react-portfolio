@@ -7,16 +7,13 @@
 @media only screen and (max-width: 900px) {
   .MainContainer {
     flex-direction: column;
-    padding-top: 11%;
   }
-  .mainLeftPart {
-    display: none;
-  }
+
   .MainLeftPart {
     position: fixed;
     top: 0%;
     left: 0%;
-    width: 30vw;
+    width: 45vw;
     height: 100vh;
     z-index: 1000;
     border-right: 2px solid #2ecc71;
@@ -30,7 +27,10 @@
     height: 20vw;
   }
   .icon {
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  .BirdImage {
+    bottom: 2.9vh;
   }
   .BirdImage img {
     width: 15vw;
@@ -47,17 +47,27 @@
   .singleSkill progress {
     width: 90vw;
   }
+  .LeftPartFooter {
+    padding: 14px 0px;
+  }
 }
 
 @media only screen and (max-width: 466px) {
-  .MainLeftPart {
-    width: 42vw;
-  }
   .title {
     width: 90%;
   }
   .AboutData h3 {
     font-size: 5vw;
+  }
+  .AboutSection h2 {
+    width: 90%;
+  }
+  .icon {
+    font-size: 3vw;
+    margin: 0px 2px;
+  }
+  .BirdImage {
+    bottom: 1vh;
   }
 }
 
