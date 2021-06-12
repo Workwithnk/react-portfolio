@@ -1,0 +1,64 @@
+.MainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 900px) {
+  .MainContainer {
+    flex-direction: column;
+  }
+  .mainLeftPart {
+    display: none;
+  }
+  .MainLeftPart {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 30vw;
+    height: 100vh;
+    z-index: 1000;
+    border-right: 2px solid #2ecc71;
+  }
+
+  .LeftPartFooter {
+    width: inherit;
+  }
+  .LeftPart_logo img {
+    width: 20vw;
+    height: 20vw;
+  }
+  .icon {
+    font-size: 3vw;
+  }
+  .BirdImage img {
+    width: 15vw;
+  }
+  .MainRightPart {
+    padding-left: 0%;
+  }
+  .quoteText {
+    font-size: 4vw;
+  }
+  .quote {
+    font-size: 7vw;
+  }
+  .singleSkill progress {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  .MainLeftPart {
+    width: 42vw;
+  }
+  .title {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 295px) {
+  .quoteText {
+    margin: 0px;
+  }
+}

@@ -1,0 +1,39 @@
+.NavBar {
+  display: none;
+}
+.hamBurger {
+  display: none;
+}
+.NavBar img {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .NavBar {
+    width: 100%;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #2ecc71;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    padding: 5px 0px;
+    z-index: 999;
+  }
+  .NavBar img {
+    display: block;
+    width: 29vw;
+  }
+  .hamBurger {
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 28%;
+  }
+  .hamBurgerIcon {
+    font-size: 4vw;
+    color: #2ecc71;
+  }
+}
