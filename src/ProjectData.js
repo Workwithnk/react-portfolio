@@ -31,8 +31,16 @@ const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNk4qehCE8TFWGo-DGqYowvPNmX_BBBbsRA&usqp=CAU",
     dis: "Netflix-Clone is a single page reactjs web app , it is clone like netflix",
   },
+
   {
     id: 5,
+    name: "TELEWORKING",
+    url: "https://teleworking.netlify.app/",
+    imageUrl: "https://teleworking.netlify.app/static/media/Logo.481cb481.png",
+    dis: "TELEWORKING is a single page reactjs webapp , it provide all the remote jobs that available by company requirements.",
+  },
+  {
+    id: 6,
     name: "Covid-19",
     url: "https://covid-19-ba02a.web.app/",
     imageUrl:
@@ -40,36 +48,37 @@ const projects = [
     dis: "Covid-19 is a single page reactjs webapp , it provide all indian state's covid data",
   },
   {
-    id: 6,
+    id: 7,
     name: "iNews",
     url: "https://workwithnk.github.io/iNews/",
     imageUrl: "https://workwithnk.github.io/iNews/img/logo.png",
     dis: "iNews is google news api based project , that provid top 10 world wide news",
   },
   {
-    id: 7,
+    id: 8,
     name: "Mems",
     url: "https://instameme.netlify.app/",
     imageUrl: "https://i.imgflip.com/30b1gx.jpg",
     dis: "Mems is a single page reactjs based application , that provides meme images to create meme's. ",
   },
   {
-    id: 8,
+    id: 9,
     name: "Ocean Technolab",
     url: "https://workwithnk.github.io/OceanTechnolab/",
     imageUrl: "https://workwithnk.github.io/OceanTechnolab/img/1.jpg",
     dis: "Ocean Technolab is a simple single page website Template , it is build with Bootstrap ",
   },
   {
-    id: 9,
+    id: 10,
     name: "SUPCASE",
     url: "https://workwithnk.github.io/SUPCASE/",
     imageUrl:
       "https://workwithnk.github.io/SUPCASE/img-fonts/img/section_first_background.png",
     dis: "SUPCASE is a mobile cover company , And it's template is bulid using Bootstrap",
   },
+
   {
-    id: 10,
+    id: 11,
     name: "Magic-Notes",
     url: "https://workwithnk.github.io/magic-note/",
     imageUrl: "https://iamnk.ml/img/magicnote.jpg",
