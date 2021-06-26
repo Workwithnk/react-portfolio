@@ -84,6 +84,14 @@ const projects = [
     imageUrl: "https://iamnk.ml/img/magicnote.jpg",
     dis: "Magic-Notes is a single page application for storing your notes.",
   },
+  {
+    id: 12,
+    name: "Color-Cave",
+    url: "https://color-cave.web.app/",
+    imageUrl:
+      "https://cdn.britannica.com/70/191970-131-A85628DA/Color-wheel-light-color-spectrum.jpg",
+    dis: "Color-Cave can provide developer's to finding the best solution of colour's , they can use that in there website ",
+  },
 ];
 
 export default projects;
