@@ -92,6 +92,13 @@ const projects = [
       "https://cdn.britannica.com/70/191970-131-A85628DA/Color-wheel-light-color-spectrum.jpg",
     dis: "Color-Cave can provide developer's to finding the best solution of colour's , they can use that in there website ",
   },
+  {
+    id: 13,
+    name: "Gaming Store",
+    url: "https://gamingstore.netlify.app/",
+    imageUrl: "https://gamingstore.netlify.app/static/media/Logo.50bdbba8.png",
+    dis: "Gaming store is single page gaming data contain application",
+  },
 ];
 
 export default projects;
