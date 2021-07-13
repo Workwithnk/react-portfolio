@@ -99,6 +99,13 @@ const projects = [
     imageUrl: "https://gamingstore.netlify.app/static/media/Logo.50bdbba8.png",
     dis: "Gaming store is single page gaming data contain application",
   },
+  {
+    id: 14,
+    name: "Scorrer",
+    url: "https://workwithnk.github.io/Scorrer/",
+    imageUrl: "https://workwithnk.github.io/Scorrer/images/Logo.png",
+    dis: "Scorrer is single page webapp , that showing the past matches highlights.  ",
+  },
 ];
 
 export default projects;
