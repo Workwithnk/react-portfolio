@@ -95,7 +95,7 @@ const projects = [
   {
     id: 13,
     name: "Gaming Store",
-    url: "https://gamingstore.netlify.app/",
+    url: "https://gamingstore-b2023.web.app/",
     imageUrl: "https://gamingstore.netlify.app/static/media/Logo.50bdbba8.png",
     dis: "Gaming store is single page gaming data contain application",
   },
